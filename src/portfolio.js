@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Lukman",
+  username: "Ananda Lukman",
   title: "Hi all, I'm Lukman",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Kotlin Native and Jetpack Compose."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Google Script / Kotlin Native and Jetpack Compose."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -49,12 +49,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Fullstack Mobile Programmer",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop FrontEnd Mobile Application"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Backend Develop with Ktor, Google Script, Laravel."),
     emoji(
       "⚡ Integration of third party service like Firebase"
     )
@@ -169,10 +169,11 @@ const workExperiences = {
       company: "Miftahul Huda",
       companylogo: require("./assets/images/miftada.png"),
       date: "July 2019 – July 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "I am a passionate and experienced computer teacher with 2 years of experience in educating students of all ages. Throughout my career, I have honed my skills in teaching a wide range of computer subjects, including fundamental web develop, mobile develop, etc.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Blog Teaching",
+        "Drag And Drop Mobile Develop",
+        "Basic Office Tools"
       ]
     },
     {
@@ -180,14 +181,25 @@ const workExperiences = {
       company: "AnterAja",
       companylogo: require("./assets/images/anteraja.jpg"),
       date: "July 2021 – Agu 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "While working at AnterAja, I held the role of Mobile Developer and was responsible for developing several projects, including the Staging App, Warehouse App, and Rider App. These three apps support the delivery of goods. Additionally, I have experience using Katalon for automation testing.",
+      descBullets: [
+        "Native Mobile Programming",
+        "Agile And Scrum FrameWork",
+        "Automation Testing"
+      ]
     },
     {
       role: "Mobile Developer - EDC Developer",
       company: "BNI Agen 46",
       companylogo: require("./assets/images/bni.png"),
       date: "Sept 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "During my time at BNI Agen 46, I was involved in a single project: developing the Agen 46 application as a Mitra Payment platform. This application integrates with various devices, including EDC, MicroATM, and NFC. I gained experience in both native and hybrid development using Flutter.",
+      descBullets: [
+        "EDC Develop",
+        "MICRO ATM Develop",
+        "Jetpack Compose",
+        "Native Mobile Programming"
+      ]
     }
   ]
 };
