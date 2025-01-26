@@ -49,10 +49,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Fullstack Mobile Programmer",
+  subTitle: "Fullstack Mobile Developer, and Web Developer",
   skills: [
     emoji(
-      "⚡ Develop FrontEnd Mobile Application"
+      "⚡ Develop FrontEnd Mobile Application and Web Developer"
     ),
     emoji("⚡ Backend Develop with Ktor, Google Script, Laravel."),
     emoji(
@@ -105,7 +105,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-google"
     },
     {
-      skillName: "Firbase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
@@ -115,6 +115,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Katalon",
       fontAwesomeClassname: "fab fa-cog"
+    }, 
+    {
+      skillName: "NextJS",
+      fontAwesomeClassname: "fab fa-js"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -194,6 +198,19 @@ const workExperiences = {
       companylogo: require("./assets/images/bni.png"),
       date: "Sept 2023 – Present",
       desc: "During my time at BNI Agen 46, I was involved in a single project: developing the Agen 46 application as a Mitra Payment platform. This application integrates with various devices, including EDC, MicroATM, and NFC. I gained experience in both native and hybrid development using Flutter.",
+      descBullets: [
+        "EDC Develop",
+        "MICRO ATM Develop",
+        "Jetpack Compose",
+        "Native Mobile Programming"
+      ]
+    }, 
+    {
+      role: "Web Developer - FrontEnd",
+      company: "ZappleRepair",
+      companylogo: require("./assets/images/zapplerepairindonesia_logo.jpg"),
+      date: "Aug 2024 – January 2025",
+      desc: "Frontend Web Developer at Zapplerepair, responsible for developing applications using Next.js as the frontend framework, while supporting backend integration built with Laravel and Node.js. Focused on creating responsive user interfaces and delivering optimal user experiences.",
       descBullets: [
         "EDC Develop",
         "MICRO ATM Develop",
