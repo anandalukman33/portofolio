@@ -38,7 +38,7 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Contact me" href="https://wa.me/62895363780972?text=Hi%2C%20Lukman" />
                 {greeting.resumeLink && (
                   <a
                     href={require("./CV-Ananda-Muhamad-Lukman.pdf")}
