@@ -23,7 +23,7 @@ const greeting = {
   username: "Ananda Lukman",
   title: "Hi all, I'm Lukman",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Google Script / Kotlin Native and Jetpack Compose."
+    "A passionate Full Stack Developer 🚀 with experience in building Web, Mobile, and Desktop applications using JavaScript / ReactJS / NodeJS / Google Script / Kotlin Native / Jetpack Compose / C# WinUI. Proficient in backend development and desktop application development."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Fullstack Mobile Developer, and Web Developer",
+  subTitle: "Full Stack Developer specializing in Mobile, Web, and Desktop Development",
   skills: [
     emoji(
-      "⚡ Develop FrontEnd Mobile Application and Web Developer"
+      "⚡ Develop Frontend Applications across Mobile, Web, and Desktop platforms"
     ),
-    emoji("⚡ Backend Develop with Ktor, Google Script, Laravel."),
+    emoji("⚡ Backend Development with NodeJS, Ktor, Google Script, and Laravel"),
     emoji(
-      "⚡ Integration of third party service like Firebase"
+      "⚡ Integration of third-party services and system architecture design"
     )
   ],
 
@@ -81,11 +81,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "Android ",
+      skillName: "Android",
       fontAwesomeClassname: "fab fa-android"
     },
     {
-      skillName: "NodeJS",
+      skillName: "NodeJS Backend",
       fontAwesomeClassname: "fab fa-node"
     },
     {
@@ -119,6 +119,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "NextJS",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "C# WinUI",
+      fontAwesomeClassname: "fab fa-windows"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -193,16 +197,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Mobile Developer - EDC Developer",
+      role: "Mobile Developer - EDC Developer & Desktop Developer",
       company: "BNI Agen 46",
       companylogo: require("./assets/images/bni.png"),
       date: "Sept 2023 – Present",
-      desc: "During my time at BNI Agen 46, I was involved in a single project: developing the Agen 46 application as a Mitra Payment platform. This application integrates with various devices, including EDC, MicroATM, and NFC. I gained experience in both native and hybrid development using Flutter.",
+      desc: "During my time at BNI Agen 46, I have been involved in multiple projects: developing the Agen 46 application as a Mitra Payment platform and creating Windows desktop applications. The mobile application integrates with various devices including EDC, MicroATM, and NFC, while utilizing both native and hybrid development with Flutter. Additionally, I developed desktop applications using C# WinUI 3 for HID U are U fingerprint authentication system, providing seamless biometric integration.",
       descBullets: [
-        "EDC Develop",
-        "MICRO ATM Develop",
-        "Jetpack Compose",
-        "Native Mobile Programming"
+        "EDC & MicroATM Integration",
+        "Mobile App Development with Flutter",
+        "C# WinUI 3 Desktop Development",
+        "HID U are U Biometric Integration",
+        "Native & Cross-platform Development"
       ]
     }, 
     {
