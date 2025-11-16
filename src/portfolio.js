@@ -227,33 +227,36 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
+  title: "Aplikasi Play Store Saya",
+  subtitle:
+    "BEBERAPA APLIKASI YANG PERNAH SAYA PUBLIKASIKAN DI GOOGLE PLAY STORE",
+  projects: [
+    {
+      image: require("./assets/images/kicau_pro.png"), // <-- PENTING: Lihat Langkah 2
+      projectName: "Kicau Pro",
+      projectDesc:
+        "Asisten pribadi cerdas untuk pecinta burung, dilengkapi jadwal perawatan berbasis AI, sistem 'leveling', studio remix audio 'Masteran', dan ensiklopedia burung offline.",
+      footerLink: [
+        {
+          name: "Lihat di Play Store",
+          url: "https://play.google.com/store/apps/details?id=id.park_yasha.app_kicaupro"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/obasaka.png"), // <-- PENTING: Lihat Langkah 2
+      projectName: "Obasaka (Server Offline)",
+      projectDesc:
+        "Aplikasi Streaming Anime untuk penggemar di Indonesia dengan fitur seperti dark mode, mode offline, dan bookmark. (Catatan: Server saat ini sedang tidak aktif).",
+      footerLink: [
+        {
+          name: "Lihat di Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.obasaka.nime.stream"
+        }
+      ]
+    }
+  ],
+  display: true // Diubah dari false menjadi true
 };
 
 // Achievement Section
