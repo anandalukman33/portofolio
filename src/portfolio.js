@@ -320,7 +320,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false;
+const isHireable = true;
 
 export {
   illustration,
